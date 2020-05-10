@@ -1,5 +1,100 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit 0f613089d5da32a855a830d44cbef3263d5774c2
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat May 9 20:35:27 2020 -0600
+
+    update release files
+
+ ChangeLog | 22 ++++++++++++++++++++++
+ NEWS      | 18 +++++++++++++++++-
+ 2 files changed, 39 insertions(+), 1 deletion(-)
+
+commit e9e080f8ea9455428e19a8d91d1f40f87fd002c0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat May 9 20:35:12 2020 -0600
+
+    more sounds
+
+ .../stereo/audio-channel-front-center.oga        | Bin 9863 -> 8795 bytes
+ .../unexicon/stereo/audio-channel-front-left.oga | Bin 9110 -> 7351 bytes
+ .../stereo/audio-channel-front-right.oga         | Bin 8402 -> 7221 bytes
+ .../unexicon/stereo/audio-channel-left.oga       | Bin 7133 -> 6130 bytes
+ .../sounds/unexicon/stereo/audio-channel-lfe.oga | Bin 8451 -> 8078 bytes
+ .../stereo/audio-channel-rear-center.oga         | Bin 9403 -> 9355 bytes
+ .../unexicon/stereo/audio-channel-rear-left.oga  | Bin 8603 -> 7634 bytes
+ .../unexicon/stereo/audio-channel-rear-right.oga | Bin 7641 -> 7557 bytes
+ .../unexicon/stereo/audio-channel-right.oga      | Bin 6725 -> 5916 bytes
+ .../unexicon/stereo/audio-channel-side-left.oga  | Bin 9165 -> 7635 bytes
+ .../unexicon/stereo/audio-channel-side-right.oga | Bin 8423 -> 7313 bytes
+ .../unexicon/stereo/battery-caution-keyboard.oga | Bin 0 -> 15752 bytes
+ .../unexicon/stereo/battery-caution-mouse.oga    | Bin 0 -> 15425 bytes
+ data/sounds/unexicon/stereo/battery-caution.oga  | Bin 0 -> 13806 bytes
+ .../stereo/battery-charging-keyboard.oga         | Bin 0 -> 11165 bytes
+ .../unexicon/stereo/battery-charging-mouse.oga   | Bin 0 -> 11113 bytes
+ data/sounds/unexicon/stereo/battery-charging.oga | Bin 0 -> 9293 bytes
+ .../stereo/battery-discharging-keyboard.oga      | Bin 0 -> 12337 bytes
+ .../stereo/battery-discharging-mouse.oga         | Bin 0 -> 11477 bytes
+ .../unexicon/stereo/battery-discharging.oga      | Bin 0 -> 9914 bytes
+ .../unexicon/stereo/battery-empty-keyboard.oga   | Bin 0 -> 10973 bytes
+ .../unexicon/stereo/battery-empty-mouse.oga      | Bin 0 -> 10306 bytes
+ data/sounds/unexicon/stereo/battery-empty.oga    | Bin 0 -> 8879 bytes
+ .../unexicon/stereo/battery-full-keyboard.oga    | Bin 0 -> 12533 bytes
+ .../unexicon/stereo/battery-full-mouse.oga       | Bin 0 -> 12215 bytes
+ data/sounds/unexicon/stereo/battery-full.oga     | Bin 0 -> 10751 bytes
+ .../unexicon/stereo/battery-low-keyboard.oga     | Bin 0 -> 21019 bytes
+ .../sounds/unexicon/stereo/battery-low-mouse.oga | Bin 0 -> 18744 bytes
+ data/sounds/unexicon/stereo/battery-low.oga      | Bin 0 -> 14787 bytes
+ data/sounds/unexicon/stereo/completion-fail.oga  | Bin 0 -> 5016 bytes
+ .../unexicon/stereo/completion-partial.oga       | Bin 0 -> 7188 bytes
+ .../unexicon/stereo/completion-rotation.oga      | Bin 0 -> 8213 bytes
+ .../unexicon/stereo/completion-success.oga       | Bin 0 -> 4026 bytes
+ data/sounds/unexicon/stereo/desktop-login.oga    | Bin 49 -> 116367 bytes
+ data/sounds/unexicon/stereo/desktop-logout.oga   | Bin 50 -> 48721 bytes
+ .../unexicon/stereo/desktop-screen-lock.oga      | Bin 34441 -> 50641 bytes
+ .../unexicon/stereo/desktop-screen-unlock.oga    | Bin 45635 -> 44032 bytes
+ .../stereo/desktop-session-checkpoint.oga        | Bin 0 -> 10218 bytes
+ .../unexicon/stereo/desktop-session-create.oga   | Bin 0 -> 9381 bytes
+ .../stereo/desktop-session-restore-failed.oga    | Bin 0 -> 11822 bytes
+ .../unexicon/stereo/desktop-session-restore.oga  | Bin 0 -> 9648 bytes
+ .../stereo/desktop-session-save-failed.oga       | Bin 0 -> 10352 bytes
+ .../unexicon/stereo/desktop-session-save.oga     | Bin 0 -> 9147 bytes
+ data/sounds/unexicon/stereo/drag-accept.oga      | Bin 0 -> 11848 bytes
+ data/sounds/unexicon/stereo/drag-fail.oga        | Bin 0 -> 37194 bytes
+ data/sounds/unexicon/stereo/drag-start.oga       | Bin 0 -> 11994 bytes
+ .../unexicon/stereo/game-computer-move.oga       | Bin 8228 -> 7360 bytes
+ data/sounds/unexicon/stereo/game-human-move.oga  | Bin 8415 -> 14876 bytes
+ data/sounds/unexicon/stereo/game-over-loser.oga  | Bin 12330 -> 10315 bytes
+ data/sounds/unexicon/stereo/game-over-winner.oga | Bin 11263 -> 9686 bytes
+ data/sounds/unexicon/stereo/link-pressed.oga     | Bin 0 -> 13015 bytes
+ data/sounds/unexicon/stereo/link-released.oga    | Bin 0 -> 9551 bytes
+ data/sounds/unexicon/stereo/phone-failure.oga    | Bin 0 -> 26630 bytes
+ data/sounds/unexicon/stereo/phone-hangup.oga     | Bin 0 -> 26630 bytes
+ .../stereo/software-update-available.oga         | Bin 25354 -> 12093 bytes
+ .../unexicon/stereo/software-update-urgent.oga   | Bin 27729 -> 13430 bytes
+ data/sounds/unexicon/stereo/system-bootup.oga    | Bin 14549 -> 23248 bytes
+ .../unexicon/stereo/system-shutdown-reboot.oga   | Bin 19 -> 21350 bytes
+ data/sounds/unexicon/stereo/system-shutdown.oga  | Bin 14271 -> 22474 bytes
+ .../unexicon/stereo/thermal-caution-cpu.oga      | Bin 0 -> 10101 bytes
+ .../unexicon/stereo/thermal-caution-gpu.oga      | Bin 0 -> 10216 bytes
+ data/sounds/unexicon/stereo/thermal-caution.oga  | Bin 0 -> 9765 bytes
+ data/sounds/unexicon/stereo/thermal-cool-cpu.oga | Bin 0 -> 11050 bytes
+ data/sounds/unexicon/stereo/thermal-cool-gpu.oga | Bin 0 -> 10915 bytes
+ data/sounds/unexicon/stereo/thermal-cool.oga     | Bin 0 -> 10877 bytes
+ data/sounds/unexicon/stereo/thermal-hot-cpu.oga  | Bin 0 -> 16340 bytes
+ data/sounds/unexicon/stereo/thermal-hot-gpu.oga  | Bin 0 -> 17156 bytes
+ data/sounds/unexicon/stereo/thermal-hot.oga      | Bin 0 -> 14464 bytes
+ data/sounds/unexicon/stereo/tooltip-popdown.oga  | Bin 0 -> 8178 bytes
+ data/sounds/unexicon/stereo/tooltip-popup.oga    | Bin 0 -> 8340 bytes
+ data/sounds/unexicon/stereo/window-ping.oga      | Bin 0 -> 9315 bytes
+ data/sounds/unexicon/stereo/window-raise.oga     |   2 +-
+ .../unexicon/stereo/window-stack-lower.oga       |   1 +
+ .../unexicon/stereo/window-stack-raise.oga       |   1 +
+ .../{window-raise.oga => window-stack.oga}       |   0
+ data/sounds/unexicon/stereo/window-urgent.oga    | Bin 0 -> 13762 bytes
+ data/sounds/unexicon/stereo/windows-slide.oga    | Bin 0 -> 21925 bytes
+ 77 files changed, 3 insertions(+), 1 deletion(-)
+
 commit 557d3a9c2c8149906e752aba88424f844871c48f
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Sat May 9 18:42:23 2020 -0600
