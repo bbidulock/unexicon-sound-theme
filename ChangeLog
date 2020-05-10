@@ -1,0 +1,90 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit ed080052e579030979b4aad78f4faea9b35dfc6e
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat May 9 18:16:10 2020 -0600
+
+    Initial commit
+
+ autogen.sh                                       |  44 +++++
+ configure.ac                                     | 172 +++++++++++++++++++
+ configure.sh                                     |  36 ++++
+ data/sounds/unexicon/index.theme                 |   7 +
+ data/sounds/unexicon/stereo/Arrow+Swoosh+1.oga   | Bin 0 -> 6623 bytes
+ data/sounds/unexicon/stereo/Bweep.oga            | Bin 0 -> 5016 bytes
+ .../unexicon/stereo/SOUND_WINDOW_STICK.oga       | Bin 0 -> 15415 bytes
+ .../unexicon/stereo/SOUND_WINDOW_UNSTICK.oga     | Bin 0 -> 13734 bytes
+ data/sounds/unexicon/stereo/Wooeep.oga           | Bin 0 -> 6123 bytes
+ .../stereo/audio-channel-front-center.oga        | Bin 0 -> 9863 bytes
+ .../unexicon/stereo/audio-channel-front-left.oga | Bin 0 -> 9110 bytes
+ .../stereo/audio-channel-front-right.oga         | Bin 0 -> 8402 bytes
+ .../unexicon/stereo/audio-channel-left.oga       | Bin 0 -> 7133 bytes
+ .../sounds/unexicon/stereo/audio-channel-lfe.oga | Bin 0 -> 8451 bytes
+ .../stereo/audio-channel-rear-center.oga         | Bin 0 -> 9403 bytes
+ .../unexicon/stereo/audio-channel-rear-left.oga  | Bin 0 -> 8603 bytes
+ .../unexicon/stereo/audio-channel-rear-right.oga | Bin 0 -> 7641 bytes
+ .../unexicon/stereo/audio-channel-right.oga      | Bin 0 -> 6725 bytes
+ .../unexicon/stereo/audio-channel-side-left.oga  | Bin 0 -> 9165 bytes
+ .../unexicon/stereo/audio-channel-side-right.oga | Bin 0 -> 8423 bytes
+ data/sounds/unexicon/stereo/break.oga            | Bin 0 -> 3990 bytes
+ data/sounds/unexicon/stereo/camera-shutter.oga   |   1 +
+ data/sounds/unexicon/stereo/camera.oga           | Bin 0 -> 4799 bytes
+ data/sounds/unexicon/stereo/cardboardbox0.oga    | Bin 0 -> 5635 bytes
+ data/sounds/unexicon/stereo/cardboardbox1.oga    | Bin 0 -> 5864 bytes
+ data/sounds/unexicon/stereo/cardboardbox2.oga    | Bin 0 -> 5856 bytes
+ data/sounds/unexicon/stereo/clicked.oga          | Bin 0 -> 5331 bytes
+ data/sounds/unexicon/stereo/crash.oga            | Bin 0 -> 8385 bytes
+ data/sounds/unexicon/stereo/deiconify.oga        | Bin 0 -> 8050 bytes
+ data/sounds/unexicon/stereo/desktop-created.oga  |   1 +
+ .../sounds/unexicon/stereo/desktop-destroyed.oga |   1 +
+ data/sounds/unexicon/stereo/desktop-login.oga    |   1 +
+ data/sounds/unexicon/stereo/desktop-logout.oga   |   1 +
+ .../unexicon/stereo/desktop-screen-lock.oga      | Bin 0 -> 34441 bytes
+ .../unexicon/stereo/desktop-screen-unlock.oga    | Bin 0 -> 45635 bytes
+ .../unexicon/stereo/desktop-switch-down.oga      |   1 +
+ .../unexicon/stereo/desktop-switch-left.oga      |   1 +
+ .../unexicon/stereo/desktop-switch-right.oga     |   1 +
+ .../sounds/unexicon/stereo/desktop-switch-up.oga |   1 +
+ data/sounds/unexicon/stereo/dialog-cancel.oga    |   1 +
+ data/sounds/unexicon/stereo/dialog-ok.oga        |   1 +
+ data/sounds/unexicon/stereo/file-trash.oga       | Bin 0 -> 14372 bytes
+ .../sounds/unexicon/stereo/game-card-shuffle.oga |   1 +
+ .../unexicon/stereo/game-computer-move.oga       | Bin 0 -> 8228 bytes
+ data/sounds/unexicon/stereo/game-human-move.oga  | Bin 0 -> 8415 bytes
+ data/sounds/unexicon/stereo/game-over-loser.oga  | Bin 0 -> 12330 bytes
+ data/sounds/unexicon/stereo/game-over-winner.oga | Bin 0 -> 11263 bytes
+ data/sounds/unexicon/stereo/iconify.oga          | Bin 0 -> 5632 bytes
+ data/sounds/unexicon/stereo/lid-close.oga        | Bin 0 -> 6397 bytes
+ data/sounds/unexicon/stereo/lid-open.oga         | Bin 0 -> 23348 bytes
+ data/sounds/unexicon/stereo/newmessage.oga       | Bin 0 -> 6618 bytes
+ data/sounds/unexicon/stereo/ok.oga               | Bin 0 -> 4430 bytes
+ data/sounds/unexicon/stereo/scroll-down.oga      |   1 +
+ data/sounds/unexicon/stereo/scroll-left.oga      | Bin 0 -> 9993 bytes
+ data/sounds/unexicon/stereo/scroll-right.oga     | Bin 0 -> 18389 bytes
+ data/sounds/unexicon/stereo/scroll-up.oga        |   1 +
+ .../stereo/software-update-available.oga         | Bin 0 -> 25354 bytes
+ .../unexicon/stereo/software-update-urgent.oga   | Bin 0 -> 27729 bytes
+ data/sounds/unexicon/stereo/system-bootup.oga    | Bin 0 -> 14549 bytes
+ .../unexicon/stereo/system-shutdown-reboot.oga   |   1 +
+ data/sounds/unexicon/stereo/system-shutdown.oga  | Bin 0 -> 14271 bytes
+ data/sounds/unexicon/stereo/vtwm_cardshuffle.oga | Bin 0 -> 7723 bytes
+ data/sounds/unexicon/stereo/whoosh3.oga          | Bin 0 -> 8923 bytes
+ data/sounds/unexicon/stereo/whoosh4.oga          | Bin 0 -> 5536 bytes
+ data/sounds/unexicon/stereo/window-decorated.oga |   1 +
+ .../unexicon/stereo/window-inactive-click.oga    |   1 +
+ data/sounds/unexicon/stereo/window-lower.oga     |   1 +
+ data/sounds/unexicon/stereo/window-minimized.oga |   1 +
+ data/sounds/unexicon/stereo/window-move.oga      |   1 +
+ data/sounds/unexicon/stereo/window-raise.oga     |   1 +
+ data/sounds/unexicon/stereo/window-resize.oga    |   1 +
+ data/sounds/unexicon/stereo/window-stick.oga     |   1 +
+ .../unexicon/stereo/window-undecorated.oga       |   1 +
+ .../unexicon/stereo/window-unminimized.oga       |   1 +
+ data/sounds/unexicon/stereo/window-unstick.oga   |   1 +
+ data/sounds/unexicon/stereo/windowshade.oga      | Bin 0 -> 6784 bytes
+ .../sounds/unexicon/stereo/workspace-created.oga |   1 +
+ .../unexicon/stereo/workspace-destroyed.oga      |   1 +
+ dist.sh                                          |   9 +
+ gennews.sh                                       |  50 ++++++
+ rebuild.sh                                       |  11 ++
+ 81 files changed, 357 insertions(+)
