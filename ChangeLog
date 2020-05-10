@@ -1,5 +1,58 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit afbeaab4633fca3f05fba9485583e4b421a594d9
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat May 9 23:56:16 2020 -0600
+
+    update release files
+
+ ChangeLog | 95 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ NEWS      |  4 ++-
+ 2 files changed, 98 insertions(+), 1 deletion(-)
+
+commit 0f47608bdeb7ce3297dacfcaea02d3b238fe71e0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat May 9 23:56:07 2020 -0600
+
+    add more sound files
+
+ .../unexicon/stereo/desktop-mode-decrease.oga    | Bin 0 -> 9238 bytes
+ .../unexicon/stereo/desktop-mode-increase.oga    | Bin 0 -> 9908 bytes
+ .../stereo/desktop-mode-tiled-bottom.oga         | Bin 0 -> 12578 bytes
+ .../unexicon/stereo/desktop-mode-tiled-left.oga  | Bin 0 -> 55142 bytes
+ .../unexicon/stereo/desktop-mode-tiled-right.oga | Bin 0 -> 55960 bytes
+ .../unexicon/stereo/desktop-mode-tiled-top.oga   | Bin 0 -> 15975 bytes
+ data/sounds/unexicon/stereo/desktop-mode.oga     | Bin 0 -> 15975 bytes
+ .../stereo/desktop-monitor-switch-left-down.oga  | Bin 0 -> 4470 bytes
+ .../stereo/desktop-monitor-switch-left.oga       | Bin 0 -> 4470 bytes
+ .../stereo/desktop-monitor-switch-right-up.oga   | Bin 0 -> 4470 bytes
+ .../stereo/desktop-monitor-switch-right.oga      | Bin 0 -> 4470 bytes
+ .../unexicon/stereo/desktop-monitor-switch.oga   | Bin 0 -> 4470 bytes
+ .../unexicon/stereo/desktop-showing-hideall.oga  | Bin 0 -> 21925 bytes
+ .../unexicon/stereo/desktop-showing-showall.oga  | Bin 0 -> 23074 bytes
+ data/sounds/unexicon/stereo/desktop-showing.oga  | Bin 0 -> 21925 bytes
+ .../unexicon/stereo/desktop-switch-left.oga      | Bin 15 -> 11883 bytes
+ .../unexicon/stereo/desktop-switch-right.oga     | Bin 15 -> 11886 bytes
+ data/sounds/unexicon/stereo/desktop-switch.oga   | Bin 0 -> 6784 bytes
+ data/sounds/unexicon/stereo/system-bootup.oga    | Bin 23248 -> 22357 bytes
+ data/sounds/unexicon/stereo/system-ready.oga     | Bin 0 -> 18974 bytes
+ data/sounds/unexicon/stereo/system-restart.oga   | Bin 0 -> 22879 bytes
+ .../unexicon/stereo/system-shutdown-reboot.oga   | Bin 21350 -> 20689 bytes
+ data/sounds/unexicon/stereo/system-shutdown.oga  | Bin 22474 -> 22245 bytes
+ .../unexicon/stereo/window-manager-quit-adwm.oga | Bin 0 -> 14969 bytes
+ .../stereo/window-manager-quit-blackbox.oga      | Bin 0 -> 9482 bytes
+ .../stereo/window-manager-quit-fluxbox.oga       | Bin 0 -> 10248 bytes
+ .../stereo/window-manager-quit-openbox.oga       | Bin 0 -> 9545 bytes
+ .../unexicon/stereo/window-manager-quit.oga      | Bin 0 -> 12573 bytes
+ .../unexicon/stereo/window-manager-reload.oga    | Bin 0 -> 11125 bytes
+ .../unexicon/stereo/window-manager-restart.oga   | Bin 0 -> 12018 bytes
+ .../stereo/window-manager-start-adwm.oga         | Bin 0 -> 16477 bytes
+ .../stereo/window-manager-start-blackbox.oga     | Bin 0 -> 10692 bytes
+ .../stereo/window-manager-start-fluxbox.oga      | Bin 0 -> 11620 bytes
+ .../stereo/window-manager-start-openbox.oga      | Bin 0 -> 10826 bytes
+ .../unexicon/stereo/window-manager-start.oga     | Bin 0 -> 11256 bytes
+ 35 files changed, 0 insertions(+), 0 deletions(-)
+
 commit 0f613089d5da32a855a830d44cbef3263d5774c2
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Sat May 9 20:35:27 2020 -0600
