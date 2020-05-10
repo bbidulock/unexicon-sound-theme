@@ -1,6 +1,6 @@
-unexicon-sound-theme -- history of user-visible changes.  2020-05-09
+unexicon-sound-theme -- history of user-visible changes.  2020-05-10
 
-Release unexicon-sound-theme-1.0 released 2020-05-09
+Release unexicon-sound-theme-1.0 released 2020-05-10
 ----------------------------------------------------
 
 git tag -n100 -l 1.0
@@ -20,11 +20,13 @@ git tag -n100 -l 1.0
 
 git shortlog -e -n -w80,6,8 1.0
 
-Brian Bidulock <bidulock@openss7.org> (6):
+Brian Bidulock <bidulock@openss7.org> (8):
       Initial commit
       update release files
       more sounds
       update release files
       add more sound files
+      update release files
+      more sounds yet
       update release files
 

@@ -1,5 +1,31 @@
 # created with git log --stat=76 -M -C -500|fmt -sct -w80
 
+commit d38c2ad548bd598071227ccb769c6e6a3a7cbada
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun May 10 00:18:57 2020 -0600
+
+    update release files
+
+ ChangeLog | 53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ NEWS      |  4 +++-
+ 2 files changed, 56 insertions(+), 1 deletion(-)
+
+commit 46b045ddb33e14a2d5d25481b610aa0772cbc69c
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun May 10 00:18:39 2020 -0600
+
+    more sounds yet
+
+ data/sounds/unexicon/stereo/screen-brighter.oga  | Bin 0 -> 5305 bytes
+ data/sounds/unexicon/stereo/screen-darker.oga    | Bin 0 -> 5180 bytes
+ data/sounds/unexicon/stereo/search-results.oga   | Bin 0 -> 9713 bytes
+ data/sounds/unexicon/stereo/system-bootup.oga    | Bin 22357 -> 22315 bytes
+ data/sounds/unexicon/stereo/system-ready.oga     | Bin 18974 -> 18974 bytes
+ data/sounds/unexicon/stereo/system-restart.oga   | Bin 22879 -> 22275 bytes
+ .../unexicon/stereo/system-shutdown-reboot.oga   | Bin 20689 -> 20282 bytes
+ data/sounds/unexicon/stereo/system-shutdown.oga  | Bin 22245 -> 22410 bytes
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+
 commit afbeaab4633fca3f05fba9485583e4b421a594d9
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Sat May 9 23:56:16 2020 -0600

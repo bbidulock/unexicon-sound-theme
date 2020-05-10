@@ -1,9 +1,9 @@
-[unexicon-sound-theme -- read me first file.  2020-05-09]: #
+[unexicon-sound-theme -- read me first file.  2020-05-10]: #
 
 unexicon-sound-theme
 ===============
 
-Package `unexicon-sound-theme-1.0` was released under GPLv3 license 2020-05-09.
+Package `unexicon-sound-theme-1.0` was released under GPLv3 license 2020-05-10.
 
 This is a set of sounds, primarily window manager sounds and sounds for
 shutdown and reboot of the system on logout, for the XDE (_X Desktop
@@ -12,7 +12,7 @@ Environment_).
 Release
 -------
 
-This is the `unexicon-sound-theme-1.0` package, released 2020-05-09.  This
+This is the `unexicon-sound-theme-1.0` package, released 2020-05-10.  This
 release, and the latest version, can be obtained from [GitHub][1], using
 a command such as:
 
