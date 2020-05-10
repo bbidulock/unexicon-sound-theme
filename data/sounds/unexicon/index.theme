@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=unexicon
+Inherits=Smooth,linux-a11y
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
