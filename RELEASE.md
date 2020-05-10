@@ -1,14 +1,14 @@
 [unexicon-sound-theme -- release notes.  2020-05-08]: #
 
-Initial Release 1.0
-===================
+Preliminary Release 0.9
+=======================
 
-This is the first release of the unexicon-sound-theme package that
+This is the initial release of the unexicon-sound-theme package that
 provides desktop sounds for the _XDE (X Desktop Environment)_.  It
 provides the necessary sound themes to work with XDE tools as well as
 providing the default theme for _unexicon_.
 
-This release is the initial release.
+This release is the initial preliminary release.
 
 Included in the release is an autoconf tarball for building the package
 from source.  See the [NEWS](NEWS) and [TODO](TODO) file in the release
