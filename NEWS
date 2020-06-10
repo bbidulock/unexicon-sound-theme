@@ -1,5 +1,30 @@
 unexicon-sound-theme -- history of user-visible changes.  2020-05-10
 
+Release unexicon-sound-theme-1.0 released 2020-05-10
+----------------------------------------------------
+
+git tag -n100 -l 1.0
+
+1.0             Initial Release 1.0
+
+    This is the initial release of the unexicon-sound-theme package that
+    provides desktop sounds for the XDE (X Desktop Environment). It
+    provides the necessary sound themes to work with XDE tools as well as
+    providing the default theme for unexicon.
+
+    This release is the initial release.
+
+    Included in the release is an autoconf tarball for building the package
+    from source. See the NEWS and TODO file in the release for more
+    information. Please report problems to the issues list on GitHub.
+
+git shortlog -e -n -w80,6,8 0.9...1.0
+
+Brian Bidulock <bidulock@openss7.org> (2):
+      post-release update
+      a few more sound tweaks
+
+
 Release unexicon-sound-theme-0.9 released 2020-05-10
 ----------------------------------------------------
 

@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([unexicon-sound-theme],[0.9],[https://github.com/bbidulock/unexicon-sound-theme],[unexicon-sound-theme])
-AC_REVISION([0.9])
+AC_INIT([unexicon-sound-theme],[1.0],[https://github.com/bbidulock/unexicon-sound-theme],[unexicon-sound-theme])
+AC_REVISION([1.0])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -23,7 +23,7 @@ AC_SUBST([DATE])
 MDOCDATE='May 10, 2020'
 AC_SUBST([MDOCDATE])
 
-BRANCH='0.9'
+BRANCH='1.0'
 AC_SUBST([BRANCH])
 
 # Initialize Automake

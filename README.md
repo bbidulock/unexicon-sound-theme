@@ -3,7 +3,7 @@
 unexicon-sound-theme
 ===============
 
-Package `unexicon-sound-theme-0.9` was released under GPLv3 license 2020-05-10.
+Package `unexicon-sound-theme-1.0` was released under GPLv3 license 2020-05-10.
 
 This is a set of sounds, primarily window manager sounds and sounds for
 shutdown and reboot of the system on logout, for the XDE (_X Desktop
@@ -12,7 +12,7 @@ Environment_).
 Release
 -------
 
-This is the `unexicon-sound-theme-0.9` package, released 2020-05-10.  This
+This is the `unexicon-sound-theme-1.0` package, released 2020-05-10.  This
 release, and the latest version, can be obtained from [GitHub][1], using
 a command such as:
 
@@ -95,12 +95,12 @@ Report issues on GitHub [here][2].
 
 [1]: https://github.com/bbidulock/unexicon-sound-theme
 [2]: https://github.com/bbidulock/unexicon-sound-theme/issues
-[3]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/NEWS
-[4]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/ChangeLog
-[5]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/TODO
-[6]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/COMPLIANCE
-[7]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/INSTALL
-[8]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/LICENSE
-[9]: https://github.com/bbidulock/unexicon-sound-theme/blob/0.9/COPYING
+[3]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/NEWS
+[4]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/ChangeLog
+[5]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/TODO
+[6]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/COMPLIANCE
+[7]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/INSTALL
+[8]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/LICENSE
+[9]: https://github.com/bbidulock/unexicon-sound-theme/blob/1.0/COPYING
 
 [ vim: set ft=markdown sw=4 tw=72 nocin nosi fo+=tcqlorn spell: ]: #
