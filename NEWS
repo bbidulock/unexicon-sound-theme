@@ -20,10 +20,11 @@ git tag -n100 -l 1.0
 
 git shortlog -e -n -w80,6,8 0.9...1.0
 
-Brian Bidulock <bidulock@openss7.org> (3):
+Brian Bidulock <bidulock@openss7.org> (4):
       post-release update
       a few more sound tweaks
       update release files
+      update release files again
 
 
 Release unexicon-sound-theme-0.9 released 2020-05-10
