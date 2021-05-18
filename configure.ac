@@ -1,9 +1,9 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
-AC_INIT([unexicon-sound-theme],[1.0],[https://github.com/bbidulock/unexicon-sound-theme],[unexicon-sound-theme])
-AC_REVISION([1.0])
+AC_PREREQ([2.71])
+AC_INIT([unexicon-sound-theme],[1.1],[https://github.com/bbidulock/unexicon-sound-theme],[unexicon-sound-theme])
+AC_REVISION([1.1])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -23,7 +23,7 @@ AC_SUBST([DATE])
 MDOCDATE='June 10, 2020'
 AC_SUBST([MDOCDATE])
 
-BRANCH='1.0'
+BRANCH='1.1'
 AC_SUBST([BRANCH])
 
 # Initialize Automake
@@ -114,15 +114,13 @@ if test "$LINKS" = "links"; then
 fi
 
 AC_ARG_ENABLE([effects],
-	AC_HELP_STRING([--disable-effects],
-		[Enable sox effects on output files @<:@default=enabled@:>@]))
+	AS_HELP_STRING([--disable-effects],[Enable sox effects on output files @<:@default=enabled@:>@]))
 AM_CONDITIONAL([EFFECTS],[test x${enable_effects:-yes} = xyes])
 AC_MSG_CHECKING([for effects])
 AC_MSG_RESULT([${enable_effects:-yes}])
 
 AC_ARG_WITH([male-voice],
-	AC_HELP_STRING([--with-male-voice],
-		[Specify the default male voice @<:@default=cmu_us_rms@:>@]))
+	AS_HELP_STRING([--with-male-voice],[Specify the default male voice @<:@default=cmu_us_rms@:>@]))
 AC_MSG_CHECKING([for M voice])
 if test -z "$with_male_voice" ; then
 	MVOICE=cmu_us_rms
@@ -138,8 +136,7 @@ fi
 AC_SUBST([MVOICE])
 
 AC_ARG_WITH([female-voice],
-	AC_HELP_STRING([--with-female-voice],
-		[Specify the default female voice @<:@default=cmu_us_slt@:>@]))
+	AS_HELP_STRING([--with-female-voice],[Specify the default female voice @<:@default=cmu_us_slt@:>@]))
 AC_MSG_CHECKING([for F voice])
 if test -z "$with_female_voice" ; then
 	FVOICE=cmu_us_slt
