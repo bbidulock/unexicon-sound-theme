@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [unexicon-sound-theme -- read me first file.  2021-05-18]: #
 
 unexicon-sound-theme
